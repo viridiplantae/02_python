@@ -4,11 +4,13 @@
 
 import random
 
-arreglo = [ ]
+def sumArreglo(x):
+        arre = [ ]
+        for i in range (x):
+                arre.append(random.randint(1,1000))
+        return arre
 
-for i in range (3):
-        arreglo.append(random.randint(1,1000))
-
+arreglo = sumArreglo(3)
 print("El arreglo es:")
 print(arreglo)
 
